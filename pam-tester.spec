@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['pam-tester.py'],
-             binaries=[],
+             binaries=[('/lib/x86_64-linux-gnu/libz.so.1', '.')],
              datas=[],
              hiddenimports=[],
              hookspath=[],

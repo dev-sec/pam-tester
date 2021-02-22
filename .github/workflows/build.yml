@@ -28,7 +28,7 @@ jobs:
 
     - name: Build programm
       run: |
-        pyinstaller -F --add-binary pam-tester.py
+        pyinstaller -F pam-tester.py
 
     - name: Create Release
       id: create_release
