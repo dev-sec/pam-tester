@@ -1,0 +1,4 @@
+click
+pam
+pyinstaller
+flake8
