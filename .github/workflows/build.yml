@@ -39,5 +39,4 @@ jobs:
         release_name: latest
         draft: false
         prerelease: false
-        files: |
-          ./dist/pam-tester
+        files: dist/pam-tester
