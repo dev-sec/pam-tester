@@ -12,7 +12,7 @@ Features:
 
 You can either clone this repository and run `pam-tester.py` and run it with your local Python. Or you can use a prebuild executable, that should be usable on most current Linux distributions.
 
-Download
+### Download
 
 ```bash
 wget https://github.com/schurzi/pam-tester/releases/download/latest/pam-tester
@@ -20,7 +20,7 @@ chmod +x pam-tester
 ./pam-tester
 ```
 
-Build
+### Build
 
 ```bash
 git clone https://github.com/schurzi/pam-tester
@@ -47,7 +47,7 @@ Options:
 
 If you call this tool without any options, it will try to authenticate as `root`, the password will be queried, if you do not specify one via option. The default PAM stack `login` is used, if you want to check any other stack (indicated by the filename in `/etc/pam.d`) you have to specify this stack by name.
 
-Examples
+### Examples
 
 ```bash
 useradd -m testuser
