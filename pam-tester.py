@@ -11,7 +11,7 @@ import click
 @click.option('--expectfail', is_flag=True,
               help='invert return code (True if PAM stack failed, False if success).')
 def pam_auth(user, password, stack, expectfail):
-    """A basic testing programm fpr PAM tests."""
+    """A basic testing programm for PAM tests."""
     failed = True
 
     p = pam.pam()
