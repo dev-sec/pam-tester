@@ -1,6 +1,6 @@
 # pam-tester
 
-pam-tester is a tool to verify PAM auth configurations. It is intended to run in CI settings where you want to make sure, you are generating a working PAM configuration. But it can also be used in many other settings.
+pam-tester is a tool to verify PAM auth configurations. It is intended to run in CI settings where you want to make sure you are generating a working PAM configuration. But it can also be used in many other settings.
 
 Features:
 
@@ -10,7 +10,7 @@ Features:
 
 ## Installation
 
-You can either clone this repository and run `pam-tester.py` and run it with your local Python. Or you can use a prebuild executable, that should be usable on most current Linux distributions.
+You can either clone this repository and run `pam-tester.py` with your local Python. Or you can use a prebuild executable that should be usable on most current Linux distributions.
 
 ### Download
 
@@ -45,7 +45,7 @@ Options:
   --help           Show this message and exit.
 ```
 
-If you call this tool without any options, it will try to authenticate as `root`, the password will be queried, if you do not specify one via option. The default PAM stack `login` is used, if you want to check any other stack (indicated by the filename in `/etc/pam.d`) you have to specify this stack by name.
+If you call this tool without any options, it will try to authenticate as `root`. The password will be queried, if you do not specify one via option. The default PAM stack `login` is used, if you want to check any other stack (indicated by the filename in `/etc/pam.d`) you have to specify this stack by name.
 
 ### Examples
 
