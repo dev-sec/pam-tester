@@ -19,9 +19,13 @@ def pam_auth(user, password, stack, expectfail):
         failed = False
 
     click.echo(f'authenticating user { user } in PAM stack {stack}, status: PAM code {p.code}, PAM reason {p.reason}')
-    if (not expectfail and not failed) or (expectfail and failed):
-        sys.exit(0)
-    sys.exit(1)
+    # we expect no error (false) and it errors (true) -> not false and true -> true
+    # we expect no error (false) and it does not error (false) -> not false and false -> false
+    # we expect an error (true) and it errors (true) -> not true and true -> false
+    # we expect an error (true) and it does not error (false) -> not true and false -> false
+    if (not expectfail and failed) or (expectfail and not failed):
+        sys.exit(1)
+    sys.exit(0)
 
 
 if __name__ == '__main__':
