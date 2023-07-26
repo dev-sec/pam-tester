@@ -1,5 +1,0 @@
-click
-pam
-pyinstaller
-flake8
-six
