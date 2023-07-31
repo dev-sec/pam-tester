@@ -10,15 +10,19 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    # Specifying a GitHub environment is optional, but strongly encouraged
+    environment: release
+    permissions:
+      # IMPORTANT: this permission is mandatory for trusted publishing
+      id-token: write
     steps:
       - uses: actions/checkout@v3
 
       - name: Install poetry
         run: pip install poetry
 
-      - name: Publish to pypi
-        env:
-          POETRY_HTTP_BASIC_PYPI_USERNAME: __token__
-          POETRY_HTTP_BASIC_PYPI_PASSWORD: ${{ secrets.PYPI_TOKEN }}
-          PYTHON_KEYRING_BACKEND: keyring.backends.null.Keyring
-        run: poetry publish --build
+      - name: Build dist
+        run: poetry build
+
+      - name: Publish package distributions to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
