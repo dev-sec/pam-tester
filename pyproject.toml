@@ -2,8 +2,15 @@
 name = "pam-tester"
 version = "0.0.1"
 description = "Tool for testing PAM configurations"
-authors = ["Martin Schurz"]
+readme = "README.md"
+authors = ["Martin Schurz <Martin.Schurz@telekom.de>"]
 license = "GPL-3.0-only"
+homepage = "https://github.com/dev-sec/pam-tester"
+repository = "https://github.com/dev-sec/pam-tester"
+documentation = "https://github.com/dev-sec/pam-tester"
+
+[tool.poetry.urls]
+Changelog = "https://github.com/dev-sec/pam-tester/blob/master/CHANGELOG.md"
 
 [tool.poetry.scripts]
 pam-tester = "pam_tester.pam_tester:pam_auth"
