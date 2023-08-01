@@ -16,8 +16,8 @@ Changelog = "https://github.com/dev-sec/pam-tester/blob/master/CHANGELOG.md"
 pam-tester = "pam_tester.pam_tester:pam_auth"
 
 [tool.poetry.dependencies]
-python = "^3.8"
-click = "^8.1.6"
+python = "^3.6"
+click = "^8.0.4"
 pam = "^0.2.0"
 six = "^1.16.0"
 
