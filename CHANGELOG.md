@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- pam-tester runs with python 3.6 and click 8.0.4 [\#10](https://github.com/dev-sec/pam-tester/pull/10) ([rndmh3ro](https://github.com/rndmh3ro))
 - Update dependency ruff to ^0.0.282 [\#9](https://github.com/dev-sec/pam-tester/pull/9) ([renovate[bot]](https://github.com/apps/renovate))
 - Update dependency ruff to ^0.0.281 [\#8](https://github.com/dev-sec/pam-tester/pull/8) ([renovate[bot]](https://github.com/apps/renovate))
 
