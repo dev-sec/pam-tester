@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Update dependency ruff to ^0.0.282 [\#9](https://github.com/dev-sec/pam-tester/pull/9) ([renovate[bot]](https://github.com/apps/renovate))
 - Update dependency ruff to ^0.0.281 [\#8](https://github.com/dev-sec/pam-tester/pull/8) ([renovate[bot]](https://github.com/apps/renovate))
 
 ## [0.0.1](https://github.com/dev-sec/pam-tester/tree/0.0.1) (2023-07-31)
