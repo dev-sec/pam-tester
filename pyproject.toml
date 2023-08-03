@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pam-tester"
-version = "0.0.2"
+version = "0.0.3"
 description = "Tool for testing PAM configurations"
 readme = "README.md"
 authors = ["Martin Schurz <Martin.Schurz@telekom.de>"]
