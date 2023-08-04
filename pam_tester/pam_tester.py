@@ -35,3 +35,6 @@ def pam_auth(user, password, stack, expectfail):
     if (not expectfail and failed) or (expectfail and not failed):
         sys.exit(1)
     sys.exit(0)
+
+if __name__ == "__main__":
+    pam_auth()
