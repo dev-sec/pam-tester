@@ -1,12 +1,16 @@
 # Changelog
 
-## [0.0.3](https://github.com/dev-sec/pam-tester/tree/0.0.3) (2023-08-03)
+## [0.0.3](https://github.com/dev-sec/pam-tester/tree/0.0.3) (2023-08-04)
 
 [Full Changelog](https://github.com/dev-sec/pam-tester/compare/0.0.2...0.0.3)
 
 **Closed issues:**
 
 - Dependency Dashboard [\#6](https://github.com/dev-sec/pam-tester/issues/6)
+
+**Merged pull requests:**
+
+- add main function [\#11](https://github.com/dev-sec/pam-tester/pull/11) ([rndmh3ro](https://github.com/rndmh3ro))
 
 ## [0.0.2](https://github.com/dev-sec/pam-tester/tree/0.0.2) (2023-08-01)
 
