@@ -1,12 +1,16 @@
 # Changelog
 
+## [0.0.4](https://github.com/dev-sec/pam-tester/tree/0.0.4) (2023-10-20)
+
+[Full Changelog](https://github.com/dev-sec/pam-tester/compare/0.0.3...0.0.4)
+
+**Merged pull requests:**
+
+- Update actions/checkout action to v4 [\#13](https://github.com/dev-sec/pam-tester/pull/13) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [0.0.3](https://github.com/dev-sec/pam-tester/tree/0.0.3) (2023-08-04)
 
 [Full Changelog](https://github.com/dev-sec/pam-tester/compare/0.0.2...0.0.3)
-
-**Closed issues:**
-
-- Dependency Dashboard [\#6](https://github.com/dev-sec/pam-tester/issues/6)
 
 **Merged pull requests:**
 
