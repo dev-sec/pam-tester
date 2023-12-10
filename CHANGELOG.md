@@ -1,11 +1,12 @@
 # Changelog
 
-## [0.0.4](https://github.com/dev-sec/pam-tester/tree/0.0.4) (2023-10-20)
+## [0.0.4](https://github.com/dev-sec/pam-tester/tree/0.0.4) (2023-12-10)
 
 [Full Changelog](https://github.com/dev-sec/pam-tester/compare/0.0.3...0.0.4)
 
 **Merged pull requests:**
 
+- Update actions/setup-python action to v5 [\#14](https://github.com/dev-sec/pam-tester/pull/14) ([renovate[bot]](https://github.com/apps/renovate))
 - Update actions/checkout action to v4 [\#13](https://github.com/dev-sec/pam-tester/pull/13) ([renovate[bot]](https://github.com/apps/renovate))
 
 ## [0.0.3](https://github.com/dev-sec/pam-tester/tree/0.0.3) (2023-08-04)
